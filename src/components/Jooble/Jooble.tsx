@@ -30,8 +30,8 @@ const Jooble: React.FC = () => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    const url = "https://jooble.org/api/";
-    const key = JOOBLE_API_US;
+    const url = "https://pl.jooble.org/api/";
+    const key = JOOBLE_API;
     let params = { keywords, location, page: 1, limit: 10 };
 
     axios
@@ -118,7 +118,7 @@ const Jooble: React.FC = () => {
           <label>
             <TextField
               id="outlined-basic"
-              label="Country"
+              label="City"
               variant="outlined"
               style={{ margin: "0px 10px 10px 5px", width: 150 }}
               type="text"
