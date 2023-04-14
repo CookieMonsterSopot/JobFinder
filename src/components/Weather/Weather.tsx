@@ -5,7 +5,7 @@ import React from "react";
 import "./Weather.css";
 import { OPEN_WEATHER_API_KEY } from "../../helpers/openweather";
 
-const key: string = OPEN_WEATHER_API_KEY;
+const key: any = process.env.REACT_APP_OPEN_WEATHER_API_KEY;
 if (key === undefined) {
   throw new Error(
     "No Open Weather API Key defined - ensure you set a variable called REACT_APP_OPEN_WEATHER_API_KEY"
