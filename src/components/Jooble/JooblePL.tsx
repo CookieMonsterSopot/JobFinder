@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { JOOBLE_API, JOOBLE_API_US } from "../../helpers/joobleApi";
+// import { JOOBLE_API, JOOBLE_API_US } from "../../helpers/joobleApi";
 import { Form } from "react-router-dom";
 import JobArticles from "../JobArticles/JobArticles";
 import { Button, Divider, TextField } from "@mui/material";
@@ -29,7 +29,7 @@ const Jooble: React.FC = () => {
     event.preventDefault();
 
     const url = "https://pl.jooble.org/api/";
-    const key = JOOBLE_API;
+    const key = process.env.REACT_APP_JOOBLE_API;
     const params = { keywords, location };
 
     axios
