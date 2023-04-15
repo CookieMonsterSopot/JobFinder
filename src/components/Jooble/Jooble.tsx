@@ -7,6 +7,7 @@ import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../helpers/firebaseConfig";
 import joobleLogo from "../../images/jooble_2.png";
 import axios from "axios";
+import { JOOBLE_API } from "../../helpers/JoobleApi";
 
 interface JobListing {
   company: string;
@@ -31,7 +32,7 @@ const Jooble: React.FC = () => {
     event.preventDefault();
 
     const url = "https://pl.jooble.org/api/";
-    const key = process.env.REACT_APP_JOOBLE_API;
+    const key = JOOBLE_API;
     let params = { keywords, location, page: 1, limit: 10 };
 
     axios
