@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { JOOBLE_API, JOOBLE_API_US } from "../../helpers/joobleApi";
+
 import { Form } from "react-router-dom";
 import JobArticles from "../JobArticles/JobArticles";
 import { Button, Divider, TextField } from "@mui/material";
