@@ -28,13 +28,6 @@ export const RecArticles = ({ rec }: RecProps) => {
   };
   return (
     <>
-      <Typography
-        variant="h2"
-        align="center"
-        sx={{ fontFamily: "monospace", fontSize: "2rem", mt: ".8rem" }}
-      >
-        Recent History
-      </Typography>
       <div
         style={{
           display: "flex",

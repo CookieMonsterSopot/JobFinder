@@ -8,6 +8,7 @@ import {
   ListItemButton,
   ListItemIcon,
   ListItemText,
+  Typography,
 } from "@mui/material";
 import RecArticles from "../RecArticles/RecArticles";
 
@@ -67,6 +68,13 @@ const Recent: React.FC = () => {
 
   return (
     <div>
+      <Typography
+        variant="h2"
+        align="center"
+        sx={{ fontFamily: "monospace", fontSize: "2rem", mt: ".8rem" }}
+      >
+        Recent History
+      </Typography>
       <div>
         {recListing.map((el, i) => {
           return <RecArticles rec={el} key={i} />;
