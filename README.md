@@ -32,6 +32,7 @@ Weather Panel: shows actual weather conditions
 
 - React  (TypeScript, Hooks (useState, useEffect), Material UI, Axios)
 - Firebase (Firestore Database, Authentication, Storage, Hosting)
+- GitHub Actions
 
 ## Author
 
