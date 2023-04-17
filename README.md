@@ -13,10 +13,10 @@
 
 An application for searching job offers from pl.jooble.org. 
 
-### Search Job
+#### Search Job
 enter job type and city and display the list of job offers.
 
-### Recent History
+#### Recent History
 After logging in / registering a user, each open ad is saved in the Recent History.
 
 Modify Your Profile Picture
