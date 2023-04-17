@@ -12,14 +12,21 @@
 ## Overview
 
 An application for searching job offers from pl.jooble.org. 
-### Search Job: 
+
+### Search Job
+
 enter job type and city and display the list of job offers.
+
 ### Recent History
+
 After logging in / registering a user, each open ad is saved in the Recent History.
 
 Modify Your Profile Picture
 Use Menu to return to Home Page
 
+### Weather Panel
+
+Show actual weather conditions
 
 ### Links
 
@@ -29,9 +36,10 @@ Use Menu to return to Home Page
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- JavaScript
+- React  (TypeScript, Hooks (useState, useEffect), Material UI, Axios)
+- Firebase (Firestore Database, Authentication, Storage, Hosting)
+- 
+- 
 
 ## Author
 
