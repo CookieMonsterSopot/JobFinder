@@ -13,17 +13,14 @@
 
 An application for searching job offers from pl.jooble.org. 
 
-#### Search Job
-enter job type and city and display the list of job offers.
+Search Job: enter job type and city and display the list of job offers.
 
-#### Recent History
-After logging in / registering a user, each open ad is saved in the Recent History.
+Recent History: after logging in / registering a user, each opened offer is stored in the Recent History.
 
-Modify Your Profile Picture
+Modify Your Profile Photo 
 Use Menu to return to Home Page
 
-### Weather Panel
-Show actual weather conditions
+Weather Panel: shows actual weather conditions
 
 ### Links
 
@@ -35,8 +32,6 @@ Show actual weather conditions
 
 - React  (TypeScript, Hooks (useState, useEffect), Material UI, Axios)
 - Firebase (Firestore Database, Authentication, Storage, Hosting)
-- 
-- 
 
 ## Author
 
