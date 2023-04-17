@@ -3,8 +3,6 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [Production]
   - [Built with](#built-with)
@@ -25,7 +23,7 @@ Use Menu to return to Home Page
 
 ### Links
 
-- Live Site URL: [JobFinder](https://jobfinder-app-d8a27.web.app/job)
+- Live Site URL: [JobFinder](https://jobfinder-app-d8a27.web.app)
 
 ## Production
 
@@ -37,4 +35,4 @@ Use Menu to return to Home Page
 
 ## Author
 
-- Frontend Mentor - [@CoockieMonster](https://www.frontendmentor.io/profile/CookieMonsterSopot)
+[@CoockieMonster](mailto:grubysweter@gmail.com)
