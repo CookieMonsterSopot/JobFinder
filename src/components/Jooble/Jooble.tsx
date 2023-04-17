@@ -1,10 +1,6 @@
 import React, { useState } from "react";
-
-import { Form } from "react-router-dom";
 import JobArticles from "../JobArticles/JobArticles";
-import { Button, Divider, TextField } from "@mui/material";
-import { addDoc, collection } from "firebase/firestore";
-import { db } from "../../helpers/firebaseConfig";
+import { Button, TextField } from "@mui/material";
 import joobleLogo from "../../images/jooble_2.png";
 import axios from "axios";
 import { JOOBLE_API } from "../../helpers/JoobleApi";

@@ -1,4 +1,4 @@
-import Reac from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import { Button, Card, Typography } from "@mui/material";
 import { auth } from "../../helpers/firebaseConfig";

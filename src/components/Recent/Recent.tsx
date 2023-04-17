@@ -1,15 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../helpers/firebaseConfig";
-import {
-  Button,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
-  Typography,
-} from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import RecArticles from "../RecArticles/RecArticles";
 
 interface RecListing {

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ListItem, Card, ListItemText, Divider } from "@mui/material";
+import { Divider } from "@mui/material";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../helpers/firebaseConfig";
 

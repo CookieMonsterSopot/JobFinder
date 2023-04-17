@@ -1,9 +1,8 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import { Grid, Typography } from "@mui/material";
 import axios from "axios";
-import React from "react";
 import "./Weather.css";
-import { OPEN_WEATHER_API_KEY } from "../../helpers/openweather";
 
 const key: any = process.env.REACT_APP_OPEN_WEATHER_API_KEY;
 if (key === undefined) {

@@ -1,8 +1,8 @@
+import React from "react";
 import { Button, TextField, Typography } from "@mui/material";
 import { useForm } from "react-hook-form";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../helpers/firebaseConfig";
-import React from "react";
 
 interface RegisterFormValues {
   email: string;

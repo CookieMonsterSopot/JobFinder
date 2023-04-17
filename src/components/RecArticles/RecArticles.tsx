@@ -1,6 +1,6 @@
+import React from "react";
 import { Button, Divider, List, ListItem, Typography } from "@mui/material";
 import { doc, deleteDoc } from "firebase/firestore";
-import React from "react";
 import { db } from "../../helpers/firebaseConfig";
 
 interface RecListing {
