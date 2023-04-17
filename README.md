@@ -11,7 +11,7 @@
 
 ## Overview
 
-An application for searching job offers from pl.jooble.org. 
+An application for searching job offers with pl.jooble.org API. 
 
 Search Job: enter job type and city and display the list of job offers.
 
