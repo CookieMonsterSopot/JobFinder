@@ -12,7 +12,6 @@ import ProfilePhotoForm from "./components/ProfilePhotoForm/ProfilePhotoForm";
 import Jooble from "./components/Jooble/Jooble";
 import Recent from "./components/Recent/Recent";
 import Weather from "./components/Weather/Weather";
-import Indeed from "./components/Indeed/Indeed";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -38,7 +37,6 @@ function App() {
             {/* DYNAMIC */}
             <Route path="/" element={<HomePage />} />
             <Route path="/job" element={<Jooble />} />
-            <Route path="/indeed" element={<Indeed />} />
             <Route path="/recent" element={<Recent />} />
             <Route path="/login" element={<LoginPage />} />
 
